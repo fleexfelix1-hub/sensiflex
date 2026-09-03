@@ -1,92 +1,68 @@
-<!doctype html>
-<html lang="pt-BR">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#0a0614">
-<title>FLEEXRS SENSI</title>
-<style>
-:root{--bg:#08050f;--card:#120b20;--card2:#1a102c;--purple:#9b5cff;--purple2:#c18cff;--text:#f7f2ff;--muted:#a99bb8;--line:#2c1b42}
-*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 50% -10%,#2a1350 0,#0d0716 42%,#050308 100%);color:var(--text);font-family:Inter,system-ui,-apple-system,sans-serif;min-height:100vh}
-.app{max-width:520px;margin:auto;padding:22px 16px 40px}.brand{text-align:center;padding:18px 0 20px}.logo{width:70px;height:70px;border-radius:22px;margin:auto;display:grid;place-items:center;background:linear-gradient(145deg,#b36cff,#5d21b6);box-shadow:0 0 35px #7c3aed66;font-weight:900;font-size:24px}.brand h1{margin:14px 0 2px;font-size:25px;letter-spacing:2px}.brand p{margin:0;color:var(--purple2);font-weight:700}
-.card{background:linear-gradient(145deg,#151022,#0e0917);border:1px solid var(--line);border-radius:20px;padding:17px;margin:12px 0;box-shadow:0 12px 35px #0005}.row{display:flex;align-items:center;justify-content:space-between;gap:12px}.label{font-weight:750}.value{min-width:48px;text-align:right;color:var(--purple2);font-weight:900}
-input[type=range]{width:100%;accent-color:var(--purple);margin-top:13px}.range-wrap{margin:16px 0}.range-top{display:flex;justify-content:space-between;color:var(--muted);font-size:13px}
-input[type=text],select{width:100%;margin-top:9px;background:#0b0711;color:var(--text);border:1px solid var(--line);border-radius:12px;padding:13px;outline:none}
-.buttons{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:15px}.btn{border:0;border-radius:13px;padding:14px;font-weight:850;color:white;background:#211431;border:1px solid #3a2454}.primary{background:linear-gradient(135deg,#a855f7,#6d28d9);box-shadow:0 8px 24px #7c3aed55}.presets{display:flex;gap:8px;overflow:auto;padding-bottom:3px}.preset{white-space:nowrap;border:1px solid var(--line);background:#110b1b;color:#ddd0e9;border-radius:999px;padding:9px 13px}.saved{display:flex;justify-content:space-between;align-items:center;padding:12px 0;border-bottom:1px solid var(--line)}.saved:last-child{border:0}.small{color:var(--muted);font-size:12px}.danger{color:#ff8fbd;background:#2a1020}.toast{position:fixed;left:50%;bottom:20px;transform:translateX(-50%) translateY(20px);background:#20102f;border:1px solid #6f3ca5;padding:12px 18px;border-radius:999px;opacity:0;transition:.25s;pointer-events:none}.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
-</style>
-</head>
-<body>
-<div class="app">
-  <header class="brand"><div class="logo">FX</div><h1>SENSIFLEX</h1><p>@fleexrs</p></header>
+￼
+SENSIFLEX
+Instagram: @fleexrs
+PAINEL DE CONFIGURAÇÃO • MODO TREINO
+Painel ativo
+Liga os controles do SENSIFLEX
 
-  <div class="card">
-    <div class="row"><span class="label">Preset</span><span class="small">configuração manual</span></div>
-    <div class="presets" style="margin-top:12px">
-      <button class="preset" onclick="preset('equilibrada')">Equilibrada</button>
-      <button class="preset" onclick="preset('precisão')">Precisão</button>
-      <button class="preset" onclick="preset('rápida')">Rápida</button>
-    </div>
-  </div>
+Foco visual
+Funciona somente na demonstração abaixo
 
-  <section class="card" id="controls"></section>
 
-  <div class="card">
-    <div class="label">Nome da configuração</div>
-    <input id="name" type="text" placeholder="Ex.: Minha Sensi">
-    <div class="buttons">
-      <button class="btn primary" onclick="saveConfig()">Salvar</button>
-      <button class="btn" onclick="randomConfig()">Gerar Sensi</button>
-      <button class="btn" onclick="resetConfig()">Restaurar</button>
-      <button class="btn danger" onclick="clearAll()">Apagar salvas</button>
-    </div>
-  </div>
 
-  <div class="card">
-    <div class="row"><span class="label">🛡️ Segurança</span><span class="small">modo seguro</span></div>
-    <div style="margin-top:12px;color:#cfc3d9;line-height:1.55;font-size:14px">
-      Este app não injeta código, não altera arquivos do jogo e não tenta burlar sistemas de detecção.
-      Use apenas configurações permitidas pelo jogo e mantenha o aplicativo oficial atualizado.
-    </div>
-    <div class="buttons">
-      <button class="btn" onclick="toast('Modo seguro ativo')">Modo seguro: ATIVO</button>
-      <button class="btn" onclick="toast('Nenhuma alteração no jogo')">Verificar app</button>
-    </div>
-  </div>
+Perfil
+Aplicar configurações prontas
+PersonalizadoBalanceadoPrecisãoVelocidade
+Jogo
+Selecione o jogo para carregar uma configuração de sensibilidade
+    Selecionar jogo
+    Free Fire
+  
+Nenhum jogo selecionado
+Sensi para aplicar no jogo
+Valores sugeridos para configurar manualmente no Free Fire
+Geral
+90
+Ponto vermelho
+85
+Mira 2x
+80
+Mira 4x
+70
+AWM
+50
+DPI
+400
+COPIAR SENSIBILIDADE
+Copie e aplique manualmente no jogo.
+Aplicar no dispositivo
+Selecione a plataforma para visualizar a configuração correspondente
+ iOS
+Android
+Nenhuma plataforma selecionada
+Taxa de atualização
+Selecione a opção desejada para referência no Free Fire
+120 Hz
+144 Hz
+Nenhuma opção selecionada
+Nome da configuração
+Dê um nome para guardar seu conjunto de valores
+SALVAR
+GERAR SENSI
+RESTAURAR
+APAGAR SALVAS
+🛡️ Segurança
+modo seguro
+Este app não injeta código, não altera arquivos do jogo e não tenta burlar sistemas de detecção. Use apenas configurações permitidas pelo jogo e mantenha o aplicativo oficial atualizado.
+Modo seguro: ATIVO
+Verificar app
+Modo seguro ativo
+Minhas configurações
+salvas neste aparelho
+Nenhuma configuração salva.
+Sensibilidade
 
-  <div class="card">
-    <div class="row"><span class="label">Minhas configurações</span><span class="small">salvas neste aparelho</span></div>
-    <div id="saved"></div>
-  </div>
-
-  <p style="text-align:center;color:#776b84;font-size:12px;margin-top:25px">SENSIFLEX • @fleexrs</p>
-</div>
-<div id="toast" class="toast"></div>
-
-<script>
-const fields=[
- ['Geral','geral'],['Red Dot','red'],['Mira 2x','x2'],['Mira 4x','x4'],['AWM','awm'],['Olhadinha','olhadinha'],['Botão de tiro','fire']
-];
-const defaults={geral:170,red:160,x2:145,x4:130,awm:90,olhadinha:120,fire:55};
-const controls=document.getElementById('controls');
-function render(){
- controls.innerHTML=fields.map(([label,key])=>`
- <div class="range-wrap"><div class="row"><span class="label">${label}</span><span class="value" id="v-${key}">${defaults[key]}</span></div>
- <input type="range" min="0" max="${key==='fire'?100:200}" value="${defaults[key]}" oninput="defaults['${key}']=+this.value;document.getElementById('v-${key}').textContent=this.value">
- <div class="range-top"><span>0</span><span>${key==='fire'?100:200}</span></div></div>`).join('');
-}
-function toast(t){const x=document.getElementById('toast');x.textContent=t;x.classList.add('show');setTimeout(()=>x.classList.remove('show'),1800)}
-function apply(o){Object.assign(defaults,o);render()}
-function preset(p){if(p==='equilibrada')apply({geral:170,red:160,x2:145,x4:130,awm:90,olhadinha:120,fire:55});
-if(p==='precisão')apply({geral:145,red:135,x2:125,x4:115,awm:80,olhadinha:105,fire:48});
-if(p==='rápida')apply({geral:190,red:180,x2:165,x4:150,awm:105,olhadinha:145,fire:62});toast('Preset aplicado')}
-function randomConfig(){apply({geral:Math.floor(140+Math.random()*61),red:Math.floor(130+Math.random()*71),x2:Math.floor(115+Math.random()*71),x4:Math.floor(105+Math.random()*71),awm:Math.floor(70+Math.random()*61),olhadinha:Math.floor(100+Math.random()*61),fire:Math.floor(45+Math.random()*26)});toast('Nova sensibilidade gerada')}
-function saveConfig(){let name=document.getElementById('name').value.trim()||'Minha Sensi';let arr=JSON.parse(localStorage.getItem('fleexrs')||'[]');arr.unshift({name,data:{...defaults},date:new Date().toLocaleString('pt-BR')});localStorage.setItem('fleexrs',JSON.stringify(arr.slice(0,20)));document.getElementById('name').value='';showSaved();toast('Configuração salva')}
-function showSaved(){let arr=JSON.parse(localStorage.getItem('fleexrs')||'[]');document.getElementById('saved').innerHTML=arr.length?arr.map((x,i)=>`<div class="saved"><div><b>${escapeHtml(x.name)}</b><div class="small">${x.date}</div></div><button class="btn" onclick="loadSaved(${i})">Usar</button></div>`).join(''):'<div class="small" style="padding-top:14px">Nenhuma configuração salva.</div>'}
-function loadSaved(i){let arr=JSON.parse(localStorage.getItem('fleexrs')||'[]');apply(arr[i].data);toast('Configuração carregada')}
-function clearAll(){localStorage.removeItem('fleexrs');showSaved();toast('Configurações apagadas')}
-function resetConfig(){apply(defaults);Object.assign(defaults,{...{geral:170,red:160,x2:145,x4:130,awm:90,olhadinha:120,fire:55}});render();toast('Restaurado')}
-function escapeHtml(s){return s.replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]))}
-render();showSaved();
-</script>
-</body>
-</html>
+SALVAR
+REDEFINIR
+Configurações locais
+Os ajustes são salvos neste navegador. Não altera nem injeta código em jogos.
